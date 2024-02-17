@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
 
-const Courses = () => {
+const Courses = ({handleSelectCourse}) => {
 
     const [courses, setCourses] = useState([]);
 
@@ -12,16 +12,14 @@ const Courses = () => {
     }, []);
 
     return (
-        <div>
-            <h1 className='text-3xl font-bold text-center mb-5'>Course Registration</h1>
-            <div className=' grid grid-cols-3 '>
-                {
-                    courses.map(course => <Course
-                        key={course.id}
-                        course = {course}
-                    ></Course>)
-                }
-            </div>
+        <div className='w-3/4 grid grid-cols-3 gap-10'>
+            {
+                courses.map(course => <Course
+                    key={course.id}
+                    course={course}
+                    handleSelectCourse = {handleSelectCourse}
+                ></Course>)
+            }
         </div>
     );
 };

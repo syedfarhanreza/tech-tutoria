@@ -2,15 +2,29 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Courses from './components/Courses/Courses'
+import CourseCart from './components/CourseCart/CourseCart'
 
 function App() {
+ 
+  const [selectedCourses, setSelectedCourses] = useState([]);
+  const [remainingTime, setRemainingTime] = useState(20);
+
+  const handleSelectCourse = (course, time) => {
+      const newSelectedCourses = [...selectedCourses, course];
+      setSelectedCourses(newSelectedCourses);
+
+      const newRemainingTime = remainingTime - time;
+      setRemainingTime(newRemainingTime);
+  } ;
 
 
   return (
     <>
       <Header></Header>
-      <div>
-        <Courses></Courses>
+      <h1 className='text-3xl font-bold text-center mb-5'>Course Registration</h1>
+      <div className='flex justify-evenly mx-10'>
+        <Courses handleSelectCourse = {handleSelectCourse}></Courses>
+        <CourseCart selectedCourses = {selectedCourses} remainingTime = {remainingTime}></CourseCart>
       </div>
     </>
   )
