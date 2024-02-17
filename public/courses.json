@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "course_title": "Introduction to Computer Science",
+      "course_description": "An introductory course covering fundamental concepts of computer science including algorithms, data structures, and programming principles.",
+      "course_image": "https://i.ibb.co/ZJc4wqX/intriduction-of-CS.jpg",
+      "price": 50,
+      "credit_hour": 3
+    },
+    {
+      "id": 2,
+      "course_title": "Data Structures and Algorithms",
+      "course_description": "A comprehensive study of data structures and algorithms, including sorting algorithms, trees, graphs, and dynamic programming.",
+      "course_image": "https://i.ibb.co/X7m5Ks0/data-structures-and-algorithms.jpg",
+      "price": 60,
+      "credit_hour": 4
+    },
+    {
+      "id": 3,
+      "course_title": "Computer Networks",
+      "course_description": "An in-depth exploration of computer networking principles, protocols, and technologies such as TCP/IP, Ethernet, and wireless networks.",
+      "course_image": "https://i.ibb.co/MRDVgKJ/Computer-Network.png",
+      "price": 70,
+      "credit_hour": 4
+    },
+    {
+      "id": 4,
+      "course_title": "Database Systems",
+      "course_description": "Study of database design, implementation, and management, covering relational databases, SQL, and database administration.",
+      "course_image": "https://i.ibb.co/QKSDdr2/Database-System.jpg",
+      "price": 65,
+      "credit_hour": 3
+    },
+    {
+      "id": 5,
+      "course_title": "Operating Systems",
+      "course_description": "An examination of operating system principles, including process management, memory management, file systems, and virtualization.",
+      "course_image": "https://i.ibb.co/D1rqnhx/OS.jpg",
+      "price": 55,
+      "credit_hour": 3
+    },
+    {
+      "id": 6,
+      "course_title": "Software Engineering",
+      "course_description": "A study of software development methodologies, requirements engineering, design principles, and software testing.",
+      "course_image": "https://i.ibb.co/cTdzmK3/intriduction-of-SE.jpg",
+      "price": 75,
+      "credit_hour": 4
+    },
+    {
+      "id": 7,
+      "course_title": "Computer Architecture",
+      "course_description": "An exploration of computer architecture principles including instruction set architecture, pipelining, and memory hierarchy.",
+      "course_image": "https://i.ibb.co/tYLw2vb/Computer-Architecture.jpg",
+      "price": 70,
+      "credit_hour": 4
+    },
+    {
+      "id": 8,
+      "course_title": "Artificial Intelligence",
+      "course_description": "Introduction to AI techniques including search algorithms, knowledge representation, machine learning, and natural language processing.",
+      "course_image": "https://i.ibb.co/QHzLhFF/AI.jpg",
+      "price": 80,
+      "credit_hour": 4
+    },
+    {
+      "id": 9,
+      "course_title": "Cybersecurity",
+      "course_description": "Study of cybersecurity concepts, cryptography, network security, and ethical hacking techniques.",
+      "course_image": "https://i.ibb.co/bWQmkd7/Cybersecurity.jpg",
+      "price": 75,
+      "credit_hour": 4
+    },
+    {
+      "id": 10,
+      "course_title": "Web Development",
+      "course_description": "A practical course covering web technologies such as HTML, CSS, JavaScript, and server-side scripting languages.",
+      "course_image": "https://i.ibb.co/YkBpwp0/Web-Dev.jpg",
+      "price": 60,
+      "credit_hour": 3
+    },
+    {
+      "id": 11,
+      "course_title": "Computer Graphics",
+      "course_description": "Introduction to computer graphics algorithms, rendering techniques, and 3D modeling.",
+      "course_image": "https://i.ibb.co/93pcMQZ/Computer-Graphics.jpg",
+      "price": 65,
+      "credit_hour": 3
+    },
+    {
+      "id": 12,
+      "course_title": "Embedded Systems",
+      "course_description": "Study of embedded system design, microcontroller programming, real-time operating systems, and interfacing.",
+      "course_image": "https://i.ibb.co/thL9frz/embeded-system.png",
+      "price": 70,
+      "credit_hour": 4
+    }
+  ]
+  
