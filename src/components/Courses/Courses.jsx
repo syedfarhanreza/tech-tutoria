@@ -12,7 +12,7 @@ const Courses = ({handleSelectCourse}) => {
     }, []);
 
     return (
-        <div className='w-3/4 grid grid-cols-3 gap-10'>
+        <div className='w-3/4 grid grid-cols-3 gap-5 place-content-center mr-2'>
             {
                 courses.map(course => <Course
                     key={course.id}
