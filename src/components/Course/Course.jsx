@@ -7,7 +7,7 @@ const Course = ({ course, handleSelectCourse }) => {
     return (
         <div className='w-auto mb-5 rounded-xl bg-slate-200 place-content-center '>
             <div className='m-4'>
-                <img className='w-auto h-64 mb-2' src={course_image} alt={`Image of ${course_title}`} />
+                <img className='w-80 h-64 mb-2' src={course_image} alt={`Image of ${course_title}`} />
                 <h1 className="text-xl font-bold mb-4 h-14">{course_title}</h1>
                 <p className='mb-4 h-24'>{course_description}</p>
                 <div className='flex justify-between text-lg mb-2 mx-4'>
